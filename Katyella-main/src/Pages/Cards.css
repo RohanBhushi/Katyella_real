@@ -1,0 +1,33 @@
+
+
+.cards{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    width: 100%;
+    box-shadow: -1px -1px 10px -9px rgba(0,0,0,0.65);
+    margin-bottom: 2rem;
+}
+.cards:active{
+    border: 2px solid #ffa949;
+}
+.innerCard{
+    display: flex;
+    gap: 1.5rem;
+}
+.innerCard img{
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: 8.5rem;
+}
+
+
+.textDiv{
+    display: flex;
+    flex-direction: column;
+}
+.textDiv p{ 
+    font-size: 1.2rem;
+    color: #777;
+    font-weight: 500;
+}

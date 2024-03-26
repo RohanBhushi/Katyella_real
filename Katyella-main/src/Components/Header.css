@@ -1,0 +1,61 @@
+
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: -1px 21px 25px -24px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+.navbar{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+.linklists ul{
+    display: flex;
+    gap: 1rem;
+}
+.linklists ul li{
+    list-style: none;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+}
+.linklists ul li:hover{
+    background-color: #ebebf1;
+}
+.linklists ul li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0f0f0f;
+}
+.logoImg{
+    width: 10rem;
+    height: 2.5rem;
+}
+.rightNav{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.searchDiv{
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #ebebf1;
+    border-radius: 0.5rem;
+}
+.searchDiv:hover{
+    background-color: #dbdbdb;
+}
+.icon{
+    padding:1.4rem 1.2rem;
+}

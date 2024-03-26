@@ -1,0 +1,10 @@
+
+
+.articleBody{
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    background-color: #f3f3f7;
+}

@@ -1,0 +1,41 @@
+
+
+.personCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 3rem;
+}
+
+.personCards img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.personCards h3{
+    font-family:cursive;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0.8rem 0;
+}
+.personCards p{
+    font-size: 1.1rem;
+    margin-bottom: 1.3rem;
+    text-align: center;
+}
+.ratings{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 2rem;
+    border-radius: 2rem;
+    width: 8rem;
+    text-align: center;
+    padding: 6px;
+}
+/* .slider{
+    display: flex;
+    gap: 3rem;
+} */

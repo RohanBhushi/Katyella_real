@@ -1,0 +1,92 @@
+
+
+.processDiv{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.companyDiv{
+    margin: auto;
+    height: 5rem;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.companyDiv img{
+    height: 2.5rem;
+    width: 11rem;
+    transition: 0.5s ease;
+}
+.companyDiv img:hover{
+    transform: scale(1.1);
+}
+
+.teacupDiv{
+    width: 85%;
+    margin:4rem auto;
+    display: flex;
+  }
+  .cupImg{
+    width: 50%;
+    /* animation: slideRight 1.5s ease forwards; */
+  }
+  .cupImg img{
+    margin:6% 0 0 30%;
+  }
+  /* @keyframes slideRight{
+    from{
+        transform: translateX(-25%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+  } */
+  .textPart{
+    width: 50%;
+    padding: 0 1rem;
+    margin-right: 1rem;
+    /* animation: slideLeft 1.5s ease forwards; */
+  }
+  /* @keyframes slideLeft{
+    from{
+        transform: translateX(25%);
+    }
+    to{
+        transform: translateX(0);
+    }
+  } */
+  .textPart h5{
+    color: #a0a0a0;
+    letter-spacing: 1.5px;
+  }
+  .textPart h2{
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+  }
+  
+  .textPart hr{
+    width: 6rem;
+    height: 4px;
+    background-color: #ffa949;
+    border: none;
+    margin-bottom: 1.5rem;
+  }
+  .textPart p{
+    font-size: 1.15rem;
+    line-height: 1.75rem;
+    color: #666;
+  }
+
+  /* .btnBox{
+    margin-bottom:3rem;
+  } */
+  .processCards{
+    margin: 3rem 0 6rem 0;
+    width: 80%;
+    display: flex;
+    gap: 3.5rem;
+  }

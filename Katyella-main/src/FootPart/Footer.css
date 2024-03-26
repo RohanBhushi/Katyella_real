@@ -1,0 +1,58 @@
+
+
+
+.footer{
+    height: 75vh;
+    background-color: #574b8a;
+    color: white;
+    padding: 3rem 10rem 1rem 10rem;
+}
+.LogoImgDiv{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.LogoImgDiv img{
+    height: 2.5rem;
+    width: 12rem;
+    padding-right: 2.5rem;
+    border-right: 0.5px solid rgb(165, 165, 165);
+}
+
+.LogoImgDiv span{
+    margin-left: 1rem;
+    font-weight: 500;
+}
+hr{
+    border: none;
+    height: 0.5px;
+    background-color: rgb(165, 165, 165);
+}
+.info{
+    margin: 2.5rem 0 2rem 0;
+    display: flex;
+}
+
+h3{
+    font-size:1.65rem;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+}
+li{
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+li span{
+    margin-right: 0.7rem;
+}
+.contact{
+    margin-left: 14rem;
+}
+
+.icons{
+    margin: 2.5rem 0 0 0;
+}
+.icons span{
+    margin-right: 3rem;
+    font-size: 1.1rem;
+}

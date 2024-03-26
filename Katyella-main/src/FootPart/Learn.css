@@ -1,0 +1,31 @@
+
+
+
+.learn{
+    background-color: #f3f3f7;
+    height: 80vh;
+    width: 100%;
+}
+.leftViewPost{
+    width: 25%;
+    margin-left: 10%;
+}
+.leftViewPost h5{
+    font-weight: 500;
+    color: #555;
+    margin: 6rem 0 1rem 0;
+}
+.leftViewPost h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.containerDiv{
+    display: flex;
+}
+
+.sliderCards{
+    width: 70%;
+    /* margin-left: 10rem; */
+}

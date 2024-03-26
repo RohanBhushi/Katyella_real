@@ -1,0 +1,24 @@
+
+
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+:root{
+  --headColor : #ffffff;
+  --bodyColor : #f8f8f8;
+  --orange: #ffa949;
+  --hoverShade: #f3f3f7;
+  --purple: #574b8a;
+}
+body{
+  overflow-x: hidden;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+}

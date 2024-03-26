@@ -1,0 +1,32 @@
+
+
+.processCardDiv{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    /* animation: slideLeft 1.5s ease forwards; */
+}
+/* @keyframes slideLeft{
+    from{
+        transform: translateX(25%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+} */
+
+.processCardDiv img{
+    height: 6rem;
+    width: 7.75rem;
+}
+.processCardDiv h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.processCardDiv p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #666;
+}
